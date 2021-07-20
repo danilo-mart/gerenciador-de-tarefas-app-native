@@ -53,5 +53,5 @@ export default  StyleSheet.create({
         fontSize: RFValue(17),
         fontFamily:'biennale-regular',
         fontWeight: 'bold'
-    },
+    },    
 });

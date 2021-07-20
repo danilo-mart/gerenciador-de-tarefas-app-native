@@ -1,4 +1,6 @@
 import {StyleSheet} from "react-native";
+import { RFValue } from "react-native-responsive-fontsize";
+import colors from '../constants/Colors';
 import loginStyles from "./login";
 
 const defaultStyles = StyleSheet.create({
@@ -12,6 +14,14 @@ const defaultStyles = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'center'
+    },
+    errorMsg: {
+        fontFamily: 'biennale-regular',
+        textAlign: 'center',
+        color: colors.errorColor,
+        fontWeight: 'bold',
+        fontSize: RFValue(16),
+        marginBottom: RFValue(5),
     },
 });
 
